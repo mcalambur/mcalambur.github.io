@@ -1,1 +1,39 @@
-Hello World
+<!-- Added DOCTYPE & language -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- move title into head -->
+<head>
+  <meta charset="UTF-8">
+  <title>Fix The HTML</title>
+</head>
+
+
+<body>
+  <h1>Welcome</h1>
+  <hr>
+  
+   <!-- img had an improper closing tag, it's a void or self-closing element -->
+   <img width="200" src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="Funny Cat">
+  
+  <h3>Some Todos</h3>
+  <ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+    <!-- The ol ending tag was missing the backslash -->
+  </ol>
+
+  <h3>Some Helpful Links</h3>
+  <ul>
+    <li><a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a></li>
+    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+  </ul>
+  <br>
+<!-- The iframe element was missing a closing tag -->
+<iframe width="640" height="390" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"></iframe>
+</body>
+<!-- The closing html tag was missing the backslash -->
+</html>
+
