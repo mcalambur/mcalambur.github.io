@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Lattitude</title>
+      <title>Lattitude vs Cloudiness</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-       <!---<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
    </head>
    <body>
@@ -43,35 +42,26 @@
                <div class="col-md-8">
                   <div class="card">
                      <div class="card-body">
-                        <h2 class="card-title text-info"><b>Summary: Lattitude vs. X</b></h2>
+                        <h2 class="card-title text-info">vs. Cloudiness</h2>
                         <hr class="my-4">
-                        <div class="row media">
-                           <img src="Fig1.png" class="col-12 col-md-6 img-fluid" alt="Visualization 1">
-                           <div class="media-body col-md-6 col-12">
-                              <p>
-                                 The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                                 To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset over 500 cities. 
-                                 <br>
-                                 <br>
-                                 After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                                 Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the 
-                                 source data and visualizations created as part of the analysis, as well as explanations and 
-                                 descriptions of any trends and correlations witnessed.
-                           </div>
-                        </div>
+                        <img src="Fig3.png" class="col-12" alt="Visualization 3">
+                        <p>
+                              Continents tend to be less cloudy than adjacent oceans (at the same latitude), except in the equatorial belt. On average, cloudiness is highest around 60 deg S 
+                              (about 80% of the time) but there is only 40% cloud cover at the South Pole. These figures reflect the ascent and subsidence occurring at these respective latitudes, 
+                              and the large amount of ocean at around 60 deg S. Satellite-based cloudiness estimates over surfaces covered by snow or ice are somewhat uncertain, especially at night.
+                        </p>
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
                   <div class="card">
                      <div class="card-body">
-                        <h3 class="card-title text-info"><b>Visualizations</b></h3>
+                        <h3 class="card-title text-info">Visualizations</h3>
                         <hr class="my-4">
-                           <a href="vis1.html"><img src="Fig1.png" class="col-3 col-md-6 img-fluid float-left" alt="Visualization 1"/></a>
-                           <a href="vis2.html"><img src="Fig2.png" class="col-3 col-md-6 img-fluid float-left" alt="Visualization 2"/></a>
-                           <a href="vis3.html"><img src="Fig3.png" class="col-3 col-md-6 img-fluid" alt="Visualization 3"/></a>
-                           <a href="vis4.html"><img src="Fig4.png" class="col-3 col-md-6 img-fluid float-right" alt="Visualization 4"/></a>
-            
+                              <a href="vis3.html"><img src="Fig3.png" class="border border-info col-3 col-md-6 img-fluid float-left" alt="Visualization 3"/></a> 
+                              <a href="vis2.html"><img src="Fig2.png" class="col-3 col-md-6 " alt="Visualization 2"/></a> 
+                              <a href="vis4.html"><img src="Fig4.png" class="col-3 col-md-6 img-fluid float-right" alt="Visualization 4"/></a>
+                              <a href="vis1.html"><img src="Fig1.png" class="col-3 col-md-6 img-fluid float-right" alt="Visualization 1"/></a>
                      </div>
                   </div>
                </div>
